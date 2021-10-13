@@ -350,9 +350,17 @@ a:hover.sottolineatura {
   text-decoration: underline;
 }
 
+.underline1A {
+  color: var(--green);
+}
+
 .underline2 {
   color: var(--blue);
   text-decoration: underline;
+}
+
+.underline2A {
+  color: var(--blue);
 }
 
 .underline3 {
@@ -360,9 +368,17 @@ a:hover.sottolineatura {
   text-decoration: underline;
 }
 
+.underline3A {
+  color: var(--black);
+}
+
 .underline4 {
   color: var(--white);
   text-decoration: underline;
+}
+
+.underline4A {
+  color: var(--white);
 }
 
 #PrevVIOLA {
