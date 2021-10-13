@@ -10,10 +10,13 @@
   --cyan: #00FFFF;
   --blue: #007bff;
   --violet: #9900FF;
-  --font-light: bandeins_strangelight;
-  --font-regular: bandeins_strangeregular;
-  --font-bold: bandeins_strangebold;
-  --font-medium: bandeins_strangemedium;
+  --font-light: NotoSansSC-Light;
+  --font-regular: NotoSansSC-Regular;
+  --font-bold: NotoSansSC-Bold;
+  --font-medium: NotoSansSC-Medium;
+  --font-semibold: NotoSansSC-Bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
 }
 
 p {
@@ -86,6 +89,59 @@ a:hover {
     url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+    font-family: 'bandeins_strangeSBdExfull';
+    src: url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bandeins_strangeBdExfull';
+    src: url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NotoSansSC-Bold';
+    src: url('../css/fonts/NotoSansSC-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansSC-Regular';
+    src: url('../css/fonts/NotoSansSC-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansSC-Bold';
+    src: url('../css/fonts/NotoSansSC-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansSC-Light';
+    src: url('../css/fonts/NotoSansSC-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansSC-Medium';
+    src: url('../css/fonts/NotoSansSC-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* testo che scorre */
@@ -429,7 +485,7 @@ a:hover {
   #domandaFatta {
     fill: black;
   }
-  
+
   /* Transizione */
 .animate-in {
     -webkit-animation: fadeIn .5s ease-in;
