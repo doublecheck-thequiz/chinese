@@ -263,7 +263,7 @@ a:hover.sottolineatura {
 }
 
 .title3 {
-  font-family: var(--font-semibold);
+  font-family: var(--font-varbold);
   color: white;
   font-size: 1.8rem;
 }
