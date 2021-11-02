@@ -592,13 +592,15 @@ a:hover {
 
 #war {
   padding-top: 5%;
+  width: 90%;
+  align-items: center;
+  margin-left: 2rem;
 }
 
 .buttons {
   width: 20%;
-  float: right;
-  position: fixed;
-  left: 79%;
+
+  margin-left: 10rem;
 }
 
 /* Transizione */
